@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/design/spec/static/css/main.css" rel="stylesheet" />
+    <link href="/design/spec/static/css/print.css" rel="stylesheet" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="scrolling-nav.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+<title>Soham</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+        
+      <a class="navbar-brand" href="#page1"><font color="white" size="6"><font size="8">S</font>oham <font size="8">C</font>hakraborty</font></a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#contain1"><font color="white">Basic Info</font></a></li>
+          <li><a href="#contain2"><font color="white">Projects</font></a></li>
+          <li><a href="#contain3"><font color="white">Contact</font></a></li>
+          <li><a href="#contain4"><font color="white">About Me</font></a></li>
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>  
+</br>
+<div id="page1">
+	</br>
+	</br>
+<div id="pic">
+	<img src="1.jpg" >
+</br>
+</div>
+</div>
+<div id="image">
+	</br>
+	<div id="contain1" class="contentbox">
+		<a name="Basic Info"><h3><b><ins>Basic Information </ins></b></h3></a>
+		<br/>
+		<br/>
+		<p>Currently Studing Information Technology(IT) in Indian Instititute Of Engineering Science and Technology(<a style="color:white;" href="http://www.becs.ac.in/"><ins>IIEST</ins></a>).Shibpur(Formerly known as Bengal Engineering And Science University(BESU).
+		</br>
+		
+		</br>
+		Degree : BTECH-MTECH.
+		</br>
+		
+		</br>
+		Year of Graduation : 2019.
+		</br>
+		
+		</br>
+		Skills : C,HTML,CSS,JavaScript,Jquery,MATLAB,XILINX - Simulation,OPENGL.</p>
+		</br>
+		</br>
+		
+		</br>
+	</div>
+	<div id="contain2"  class="contentbox">
+		<a name="Projects"><h3><b><ins>Projects </ins></b></h3></a>
+			<p>
+				Creating a Creating Cv website using HTML,CSS,JAVASCRIPT,BOOTSTRAP and JQUERY(self started).
+				</br>
+				</br>
+				Currently working on building single page application using JavaScript and its Frameworks.
+				</br>
+				</br>
+				Other project details comming soon.
+			</p>
+			</br>
+			</br>
+			</br>
+		</div>
+	<div id="contain3" class="contentbox">
+		<a name="Contact"><h3><b><ins>Contact </ins></b></h3></a>		
+			<p>
+
+				Address : New Alipore,Kolkata.
+				</br>
+				</br>
+				P. O. : New Alipore Post Office.
+				</br>
+				</br>
+				P.S. : Behala Police Station.
+				</br>
+				</br>
+				Email : soXXXXXX@XXXXX.com.
+				</br>
+				</br>
+				Mobile Number : 98XXXXXX12.
+				</br>
+				</br>
+				Internet Profiles: <a href="https://www.facebook.com/soham.chakraborty.35">Facebook</a>,<a href="https://www.linkedin.com/in/soham-chakraborty-105b21104?trk=nav_responsive_tab_profile">Linkedin</a>
+				</br>
+			</p>
+		</div>
+	<div id="contain4" class="contentbox">
+		<a name="About Me"><h3><b><ins>About Me </ins></b></h3></a>
+			<p>
+				 Very much  passionate about Web developing ,Data Structures, Algorithm and many more subjects.Always ready to take any kind of projects;</br>
+				 which helps to learn new things and the brushing up skills.
+				
+				</br>
+				</br>
+				<strong><ins>My Strengths</ins></strong> 
+				</br>
+				<ul>
+				<li>Work with positive attitude to contribute the healthy functioning of the organization.</li>
+				</br>
+				<li>Self Confidence and Great Patience.</li>
+				</br>
+				<li>Analyzing every angle of the work before working on it.</li>
+				</br>
+				<li>Willingness to learn.</li>
+				</br>
+				<li>Adaptability to change environments.</li>
+				</br>
+				</ul>
+				
+			</p>
+	</div>
+	</br>
+</div>
+</div>
+<div id="footer">
+<p>&copy 2016 .  All  Rights  Reserved</p>
+    <script src="jquery.easing.min.js"></script>
+    <script src="scrolling-nav.js"></script>
+	<script>
+		$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 800, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+		</script>
+</body>
+</html>
